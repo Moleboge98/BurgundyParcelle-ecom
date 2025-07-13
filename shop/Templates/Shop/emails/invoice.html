@@ -1,0 +1,19 @@
+{% autoescape off %}
+Hi {{ order.user.username }},
+
+Thank you for your order!
+
+Here is a summary of your invoice (Order #{{ order.id }}):
+--------------------------------------------------
+
+{% for item in order.items.all %}
+- {{ item.product.name }} (Qty: {{ item.quantity }}) - R{{ item.price }} each
+{% endfor %}
+
+--------------------------------------------------
+Total Price: R{{ order.total_price }}
+
+Thank you for shopping with us!
+
+The Burgundy Parcelle Team
+{% endautoescape %}
