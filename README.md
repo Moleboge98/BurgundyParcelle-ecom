@@ -147,7 +147,7 @@ Open the eCommerce_app/settings.py file and ensure your DATABASES configuration 
 
 # In eCommerce_app/settings.py
 
-
+```
 
 DATABASES = {
 
@@ -169,7 +169,7 @@ DATABASES = {
 
 }
 
-
+```
 
 6. Configure Email and Login URL
 
