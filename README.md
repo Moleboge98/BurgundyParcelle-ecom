@@ -168,18 +168,18 @@ Add the following lines to the bottom of your eCommerce_app/settings.py file to 
 # In eCommerce_app/settings.py
 
 
-
-# For development, print emails to the console instead of sending them
+For development, print emails to the console instead of sending them
+```
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-
+```
 
 # Tell Django where your custom login page is
-
+```
 LOGIN_URL = 'shop:login'
 
-
+```
 
 7. Run Database Migrations
 
