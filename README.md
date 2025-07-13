@@ -97,7 +97,7 @@ It is highly recommended to use a virtual environment to manage project dependen
 
 
 
-# Create a virtual environment
+Create a virtual environment
 ```
 
 python -m venv venv
@@ -141,7 +141,7 @@ Open the eCommerce_app/settings.py file and ensure your DATABASES configuration 
 
 
 
-# In eCommerce_app/settings.py
+In eCommerce_app/settings.py
 
 ```
 
@@ -165,7 +165,7 @@ Add the following lines to the bottom of your eCommerce_app/settings.py file to 
 
 
 
-# In eCommerce_app/settings.py
+In eCommerce_app/settings.py
 
 
 For development, print emails to the console instead of sending them
