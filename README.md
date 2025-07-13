@@ -84,13 +84,13 @@ pip for package management.
 
 Clone this project to your local machine.
 
-
+```
 
 git clone <your-repository-url>
 
 cd <your-project-directory>
 
-
+```
 
 3. Set Up a Virtual Environment
 
@@ -99,28 +99,29 @@ It is highly recommended to use a virtual environment to manage project dependen
 
 
 # Create a virtual environment
+```
 
 python -m venv venv
 
-
+```
 
 # Activate the virtual environment
 
 # On macOS/Linux:
-
+```
 source venv/bin/activate
-
+```
 # On Windows:
-
+```
 venv\Scripts\activate
 
 
-
+```
 4. Install Dependencies
 
 First, create a requirements.txt file to lock your project's dependencies.
 
-
+```
 
 pip freeze > requirements.txt
 
@@ -132,7 +133,7 @@ Then, install all the necessary packages from this file.
 
 pip install -r requirements.txt
 
-
+```
 
 This will install Django, djongo, and any other packages your project needs.
 
@@ -196,23 +197,23 @@ LOGIN_URL = 'shop:login'
 
 Apply the database schema to your new MongoDB database.
 
-
+```
 
 python manage.py makemigrations
 
 python manage.py migrate
 
-
+```
 
 8. Create a Superuser
 
 Create an administrator account to access the Django admin panel.
 
-
+```
 
 python manage.py createsuperuser
 
-
+```
 
 Follow the prompts to set your username, email, and password.
 
@@ -222,11 +223,11 @@ Follow the prompts to set your username, email, and password.
 
 You're all set! Start the server.
 
-
+```
 
 python manage.py runserver
 
-
+```
 
 The application will be available at https://www.google.com/search?q=http://127.0.0.1:8000/.
 
