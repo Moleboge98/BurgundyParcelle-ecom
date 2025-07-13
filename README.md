@@ -87,7 +87,6 @@ Clone this project to your local machine.
 ```
 
 git clone <your-repository-url>
-
 cd <your-project-directory>
 
 ```
@@ -115,7 +114,6 @@ source venv/bin/activate
 ```
 venv\Scripts\activate
 
-
 ```
 4. Install Dependencies
 
@@ -126,9 +124,7 @@ First, create a requirements.txt file to lock your project's dependencies.
 pip freeze > requirements.txt
 
 
-
 Then, install all the necessary packages from this file.
-
 
 
 pip install -r requirements.txt
@@ -152,21 +148,13 @@ Open the eCommerce_app/settings.py file and ensure your DATABASES configuration 
 DATABASES = {
 
     'default': {
-
         'ENGINE': 'djongo',
-
         'NAME': 'burgundy_parcelle_db', # Or your preferred database name
-
         'ENFORCE_SCHEMA': False,
-
         'CLIENT': {
-
             'host': 'mongodb://localhost:27017/'
-
         }
-
     }
-
 }
 
 ```
