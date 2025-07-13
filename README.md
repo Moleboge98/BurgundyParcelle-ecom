@@ -104,13 +104,13 @@ python -m venv venv
 
 ```
 
-# Activate the virtual environment
+Activate the virtual environment
 
-# On macOS/Linux:
+On macOS/Linux:
 ```
 source venv/bin/activate
 ```
-# On Windows:
+On Windows:
 ```
 venv\Scripts\activate
 
@@ -175,7 +175,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 ```
 
-# Tell Django where your custom login page is
+Tell Django where your custom login page is
 ```
 LOGIN_URL = 'shop:login'
 
