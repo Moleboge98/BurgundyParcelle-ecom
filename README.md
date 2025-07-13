@@ -1,7 +1,7 @@
-Burgundy Parcelle - A Modern E-Commerce Marketplace
+# Burgundy Parcelle - A Modern E-Commerce Marketplace
 Burgundy Parcelle is a full-featured e-commerce platform built with Django. It's designed to function as a multi-vendor marketplace, allowing different sellers to create their own stores and list products, while buyers can browse, purchase, and review items from across the platform.
 
-Features
+# Features
 Dual User Roles: A clear distinction between Buyers and Vendors, each with their own capabilities and dashboard views.
 
 Vendor Storefronts: Vendors can create and manage their own unique store within the marketplace.
@@ -20,7 +20,7 @@ Password Reset: A complete, email-based password reset flow for all users.
 
 Custom Admin Panel: A robust Django admin interface for site administrators to manage users, stores, products, and categories.
 
-Tech Stack
+# Tech Stack
 Backend: Python with the Django Framework
 
 Database: MongoDB
@@ -29,7 +29,7 @@ Database Connector: djongo
 
 Frontend: HTML with Tailwind CSS for styling
 
-Setup and Installation
+# Setup and Installation
 Follow these steps to get the project running on your local machine.
 
 1. Prerequisites
